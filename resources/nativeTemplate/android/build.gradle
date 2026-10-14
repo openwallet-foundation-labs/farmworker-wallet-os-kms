@@ -27,7 +27,6 @@ buildscript {
         maven {
             url "https://packages.rnd.mendix.com/jcenter"
         }
-
     }
     dependencies {
         classpath 'com.android.tools.build:gradle'
@@ -61,14 +60,6 @@ allprojects {
     repositories {
         google()
         mavenCentral()
-
-        // Notifee local libs - ONLY for app.notifee
-        maven {
-            url "$rootDir/../node_modules/@notifee/react-native/android/libs"
-            content {
-                includeGroup "app.notifee"
-            }
-        }
 
         maven {
             url "https://maven.fabric.io/public"

@@ -65,7 +65,7 @@ actions fall back to `localStorage`.
    cd javascriptsource/keymanagement
    yarn install
    ```
-3. Open `KeyManagement.mpr` in **Studio Pro 11.12**.
+3. Open `KeyManagement.mpr` in **Studio Pro 11.12.6**.
 4. Click **Run → Run Locally**, then **View** to open the app in your browser.
 5. Log in with a demo user, e.g. `demo_user`
 
@@ -78,7 +78,7 @@ cd resources/nativeTemplate
 
 # Use the pinned Node version
 nvm install    # installs the version from .nvmrc (Node 24)
-nvm use
+nvm use 24
 
 # Install dependencies and generate the native projects
 npm install --legacy-peer-deps
@@ -95,8 +95,8 @@ Open `ios/*.xcworkspace` in Xcode and run on a simulator or device.
 
 ### Android (Android Studio)
 
-Open `resources/nativeTemplate/android` in Android Studio, let Gradle sync, then run on an emulator
-or device.
+Open `resources/nativeTemplate/android` in Android Studio, let Gradle sync, then run the `devDebug` build variant
+on an emulator or device.
 
 > Run the Mendix app locally (step above) first; the native app connects to that running instance.
 
@@ -105,7 +105,7 @@ or device.
 | Dependency | Version | Role |
 | --- | --- | --- |
 | `react-native-sensitive-info` | `6.1.4` | Keychain / Keystore secure storage (Nitro module) |
-| `react-native-nitro-modules` | `0.35.6` | Runtime required by sensitive-info 6.1.x |
+| `react-native-nitro-modules` | `0.36.1` | Runtime required by sensitive-info 6.1.x |
 | `react-native-argon2` | `4.0.0` | Argon2 seed → key derivation |
 | `json-query` | `^2.2.2` | Query language for `jsa_kcorm_query` |
 

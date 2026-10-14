@@ -1,6 +1,6 @@
 {
   "name": "native-template",
-  "version": "19.1.2",
+  "version": "19.1.7",
   "private": true,
   "scripts": {
     "preinstall": "node scripts/delete-stale-files.js",
@@ -10,7 +10,6 @@
   "dependencies": {
     "@d11/react-native-fast-image": "8.13.0",
     "@gorhom/bottom-sheet": "5.2.14",
-    "@notifee/react-native": "9.1.8",
     "@op-engineering/op-sqlite": "15.2.5",
     "@react-native-async-storage/async-storage": "2.2.0",
     "@react-native-camera-roll/camera-roll": "7.10.2",
@@ -26,7 +25,7 @@
     "@shopify/flash-list": "2.3.1",
     "big-integer": "^1.6.52",
     "json-query": "^2.2.2",
-    "mendix-native": "https://github.com/mendix/mendix-native/releases/download/v0.5.1/mendix-native-v0.5.1.tgz",
+    "mendix-native": "https://github.com/mendix/mendix-native/releases/download/v0.5.3/mendix-native-v0.5.3.tgz",
     "react-native": "0.84.1",
     "react-native-argon2": "4.0.0",
     "react-native-blob-util": "0.24.7",
@@ -37,7 +36,8 @@
     "react-native-gesture-handler": "2.31.2",
     "react-native-image-picker": "7.2.3",
     "react-native-localize": "3.7.0",
-    "react-native-nitro-modules": "0.35.6",
+    "react-native-nitro-modules": "0.36.1",
+    "react-native-notify-kit": "10.4.7",
     "react-native-pager-view": "6.9.1",
     "react-native-permissions": "5.5.1",
     "react-native-reanimated": "4.3.1",
